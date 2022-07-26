@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymRS_DB_Client", "GymRS_DB_Client\GymRS_DB_Client.csproj", "{9B3139AD-1297-4CEA-8B7B-76BDC25EA2C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymRS_DB_DAL", "GymRS_DB_DAL\GymRS_DB_DAL.csproj", "{17F04DFC-9968-4B92-862D-8FC3CB43AFCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B3139AD-1297-4CEA-8B7B-76BDC25EA2C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B3139AD-1297-4CEA-8B7B-76BDC25EA2C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B3139AD-1297-4CEA-8B7B-76BDC25EA2C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B3139AD-1297-4CEA-8B7B-76BDC25EA2C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17F04DFC-9968-4B92-862D-8FC3CB43AFCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17F04DFC-9968-4B92-862D-8FC3CB43AFCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17F04DFC-9968-4B92-862D-8FC3CB43AFCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17F04DFC-9968-4B92-862D-8FC3CB43AFCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D34B2554-53C3-4B10-A412-01F26E7EB441}
+	EndGlobalSection
+EndGlobal
