@@ -21,7 +21,7 @@ namespace GymRS_DB_DAL
         [Required]
         [StringLength(50, ErrorMessage = "Máximo 50 caracteres.")]
         [MaxLength(50)]
-        [RegularExpression(@"[A-ZÀ-ÿ-,a-z. ']+[ ]+", ErrorMessage = "Insira um nome válido.")]
+        //[RegularExpression(@"[A-ZÀ-ÿ-,a-z. ']+[ ]+", ErrorMessage = "Insira um nome válido.")]
         public string Name { get; set; }
 
         //Navigation properties

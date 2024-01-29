@@ -48,14 +48,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Migrations\202207262056225_M01Initial.cs" />
+    <Compile Include="Migrations\202207262056225_M01Initial.Designer.cs">
+      <DependentUpon>202207262056225_M01Initial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202208042103382_M02_DateError.cs" />
+    <Compile Include="Migrations\202208042103382_M02_DateError.Designer.cs">
+      <DependentUpon>202208042103382_M02_DateError.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\PersonalTrainer.cs" />
     <Compile Include="Model\Request.cs" />
     <Compile Include="Model\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DbContext\RSGymDBContext.cs" />
+    <Compile Include="Model\RequestStatus.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Migrations\" />
+    <EmbeddedResource Include="Migrations\202207262056225_M01Initial.resx">
+      <DependentUpon>202207262056225_M01Initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202208042103382_M02_DateError.resx">
+      <DependentUpon>202208042103382_M02_DateError.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

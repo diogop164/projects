@@ -50,9 +50,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GymRS.cs" />
+    <Compile Include="Repository\PersonalTrainerRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repository\StatisticsRepository.cs" />
+    <Compile Include="Repository\UserRepository.cs" />
+    <Compile Include="Repository\RequestRepository.cs" />
+    <Compile Include="Repository\RequestStatusRepository.cs" />
     <Compile Include="Utilities.cs" />
+    <Compile Include="Validacoes.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

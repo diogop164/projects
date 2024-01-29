@@ -25,5 +25,8 @@ namespace GymRS_DB_DAL
 
         public DbSet<Request> Request { get; set; }
 
+        public DbSet<RequestStatus> RequestStatus { get; set; }
+
+
     }
 }
